@@ -67,7 +67,6 @@
           scikit-learn
           tensorflow
           jupyterlab
-
         '';
         mypython = mach-nix_.mkPython ({
           requirements = python_requirements;
